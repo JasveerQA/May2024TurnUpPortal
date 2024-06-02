@@ -76,7 +76,7 @@ namespace TurnUpPortal_may2024_Tests.Tests
             driver.FindElement(By.Id("Description")).SendKeys("No");
             driver.FindElement(By.XPath("//*[@id=\"TimeMaterialEditForm\"]/div/div[4]/div/span[1]/span/input[1]")).Click();
             //driver.FindElement(By.Id("Price")).SendKeys("2000");
-            driver.FindElement(By.Id("SaveButton"))
+            driver.FindElement(By.Id("SaveButton")).Click();
                   .Click();
             
             TearDown();
